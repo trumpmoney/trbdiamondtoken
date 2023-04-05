@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+background-color: black;
+display: block;
+}
+body:focus {
+  outline: none;
+}
+h1{
+color: white;
+padding: 1px;
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+color: white;
+padding: 1px;
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+color: black;
+padding: 1px;
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+color: black;
+padding: 1px;
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+color: white;
+padding: 1px;
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: auto;
+    height: auto;
+    margin: 60px;
+    padding: 5px;
+}
+.img1 {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 450px;
+	float: left;
+	text-align: center-right;
+}
+.img2 {
+    width: 500px;
+    height: auto;
+    left: 100px;
+    margin: 5px;
+    padding: 5px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+    box-shadow: 0 0 10px 5px #000000;	
+	float: center-right;
+}
+.img2:hover{
+    transform:scale(1.1);
+}
+
+.img3 {
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    left: 100px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;	
+	box-shadow: 0 0 10px 5px #000000;
+	float: center-right;
+}
+.img3:hover{
+    transform:scale(1.1);
+}
+.img4 {
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    left: 100px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0 0 10px 5px #000000;
+	float: center-right;
+}
+.img4:hover{
+    transform:scale(1.1);
+}
+.img5 {
+    width: 700px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container1 {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+	text-algin: center;
+}
+.img6 {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 550px;
+	float: center-right;
+    margin-left: 240px;
+    margin-right: auto;
+	border-radius: 40px;
+	box-shadow: 0 0 10px 5px #000000;
+}
+.img6:hover{
+    transform:scale(1.1);
+}
+.img7 {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 550px;
+	float: center-right;
+    margin-left: auto;
+    margin-right: auto;	
+	border-radius: 40px;
+	box-shadow: 0 0 10px 5px #000000;
+}
+.img7:hover{
+    transform:scale(1.1);
+}
+.img8 {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 550px;
+	float: center-right;
+    margin-left: auto;
+    margin-right: auto;	
+	border-radius: 40px;
+	box-shadow: 0 0 10px 5px #000000;
+}
+.img8:hover{
+    transform:scale(1.1);
+}
+.box1 {
+    position: relative;
+	width: 1200px;
+	height: 700px;
+	left: 60px;
+}
+.img9 {
+    width: 700px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.img10 {
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 400px;
+	margin-left: 60px;
+	float: left;
+	text-align: center-right;
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+.box {
+    position: relative;
+	width: 1200px;
+	height: 300px;
+	background: radial-gradient(#F2BD70 , 50%, #D37F05); 
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px #000000;
+	left: 60px;
+}
+.box2 {
+    position: relative;
+	width: 1200px;
+	height: 250px;
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: radial-gradient(#F2BD70 , 50%, #D37F05);
+	left: 60px;
+}
+.con{
+   position: absolute;
+   padding: 30px;
+}
+.text {
+    text-algin: center;
+	padding: 10px;
+	color: black;
+}
+.text1 {
+    text-algin: center;
+	border-bottom: 1px solid #fff;
+	padding: 15px;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding: 10px;
+	color: white;
+}
+.text2 {
+    text-algin: center;
+	color: white;
+}
+.img11 {
+    margin-left: 530px;
+	height: auto;
+	width: 150px;
+}
+.img12 {
+    width: auto;
+	height: 100px;
+	text-algin: left;
+}
+footer {
+    padding: 50px;
+	display: block;
+	background-color: black;
+}
+.header {
+   display: block;
+}
+.hero {
+   height: auto;
+   width: auto;
+   min-height: 100vh;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://www.wavy.com/wp-content/uploads/sites/3/2021/01/GettyImages-1294907286-2.jpg");
+   background-color: black;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   background-size: 2500px;
+   position: relative;
+}
+.hero1 {
+   height: auto;
+   width: auto;
+   min-height: 100vh;
+   background: radial-gradient(#E6CBA5 , 50%, #383534 , #000000 ); 
+   position: relative;
+}
+.hero2 {
+   height: auto;
+   width: auto;
+   min-height: 100vh;
+   background: radial-gradient(#F2BD70 , 50%, #D37F05); 
+   position: relative;
+}
+.hero3 {
+   height: auto;
+   width: auto;
+   min-height: 100vh;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://www.wavy.com/wp-content/uploads/sites/3/2021/01/GettyImages-1294907286-2.jpg");
+   background-color: black;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   background-size: 2500px;
+   background-position: center;
+   position: relative;
+}
+.bighero {
+   height: auto;
+   width: auto;
+   min-height: 100vh;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: black;
+   background: radial-gradient(#2F2E2D  , 50%, #000000 );
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;   
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   position: relative;
+}
+</style>
+
+<head>
+<title>TRB DIAMOND TOKENS</title>
+<link rel="icon" href="Token/Untitled-1.png">
+<h1>OFFICIAL TRB DIAMOND TOKEN</h1>
+<p>-THE KEY TO SUCCESS-</p>
+</head>
+<body>
+<section class="bighero">
+<section class="hero">
+<div class="container">
+<img class="img1" src="Token/Trump1.png"> 
+<img class="img2" src="Token/10xstick.jpg"> 
+<img class="img3" src="Token/20xtokens.jpg"> 
+<img class="img4" src="Token/50xtokens.jpg"> 
+</div>
+
+<h2>WHY WAIT?</h2>
+<h2>YOU DESERVE THIS!</h2>
+<div class="box">
+<div class="con">
+<h3>
+The TRB Diamond Token is something that every single Patriot is passionately waiting for.
+</h3>
+<h3>The 45th promised and it is here!</h3>
+<h3>Make use of the moment, because this is your ONLY chance to get a hold of the TRB Diamond Token.</h3>
+<h3>We know all of you have been waiting patiently for so long and now it’s finally here for you to make yours!</h3>
+<h3>With President Trump you always have a chance for a better future! WEAK leave, strong stay. Glad to see so many of you are STRONG, Patriots.</h3>
+</div>
+</div>
+</br>
+</br>
+<h2>WHAT ARE YOU WAITING FOR?</h2>
+<img class="img5" src="Token/diamondtoken.jpg"> 
+</br>
+</section>
+<section class="hero1">
+<h2>MAKE AMERICA GREAT, WEALTHY AND POWERFUL AGAIN</h2>
+<div class="container1">
+<img class="img6" src="Token/20x.jpg"> 
+<img class="img7" src="Token/50x.jpg"> 
+<img class="img8" src="Token/10x.jpg">
+</div>
+<h2>THIS IS CONSERVATIVE AMERICA'S #1 TOKEN</h2>
+<div class="container2">
+<img class="img6" src="Token/3xtrbtokens.jpg"> 
+<img class="img7" src="Token/1xtrbtokens.jpg"> 
+<img class="img8" src="Token/5x.jpg">
+</div>
+<h2>ORDER 10, 20 OR 50 TOKENS AND GET FREE TRB DIAMOND STICKER!</h2>
+<h2>TRB DIAMOND STICKER: $49.99 Today: FREE</h2>
+</section>
+<section class="hero2">
+<div class="box1">
+<img class="img9" src="Token/png.png">
+<img class="img10" src="Token/Trump1.png"> 
+<h2>◆ Makes a perfect gift for other Patriots and Trump Supporters.</h2>
+<h2>◆ Live the Patriot life, live the Life you
+were promised and get the things you always 
+wanted without thinking twice.</h2>
+<h2>◆ Enjoy the benefits as a Trump Supporter. There are 74 million
+ Americans and 100 million around the world Trump Supporters.</h2>
+ <h2>◆ This TRB DIAMOND Token is made for true American Patriots.</h2>
+</div>
+</section>
+<section class="hero1">
+<h2>ACT NOW!</h2>
+<div class="container3">
+<img class="img6" src="Token/10x.jpg"> 
+<img class="img7" src="Token/50x.jpg"> 
+<img class="img8" src="Token/5x.jpg">
+</div>
+</br>
+</br>
+</section>
+<section class="hero3">
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<div class="box2">
+<h1 class="text">OUR GARANTEE</h1>
+<h2 class="text">60-DAYS Money Back Guarantee. At TRB System, we truly offer the most stunning,
+ trendy highest-quality products in the world. We will do WHATEVER it takes with outstanding customer
+ service support to assist everyone as we highly value our customer satisfaction with absolute ZERO risk.
+ We make sure that every customer is 110% satisfied in every aspect with 24/7, 365 FAST SUPPORT!</h2>
+</div>
+</section>
+</br>
+</br>
+<h1>Frequently Asked Questions</h1>
+<details>
+    <summary><h3 class="text1">• When will I receive notification of my shipment?</h3></summary>
+    <h4 class="text1">As soon as we receive the order, you will receive a notification of the shipment. Shipping usually takes 5-7 business days. 
+	(Please note: we currently handle too many shipments so your order might take up to 3 weeks)</h4>
+</details>
+<details>
+    <summary><h3 class="text1">• Is it free shipping?</h3></summary>
+    <h4 class="text1">Yes, we provide free shipping & handling on all the orders! Once you place the order,
+	our team in Colorado will handle your products within 5-7 business days.
+	(Please note: we currently handle too many shipments so your order might take up to 3 weeks)</h4>
+	</details>
+<details>
+    <summary><h3 class="text1">• Can I get support when the product is defective?</h3></summary>
+    <h4 class="text1">Please feel free to email us at contact@officialdiamondtoken.com and our team will resolve any issue.</h4>
+	</details>
+<details>
+    <summary><h3 class="text1">• What type of shipping method do you use?</h3></summary>
+    <h4 class="text1">USPS and before that you will receive an email with the parcel details. For return package,
+	the address is Mel Printing, 22701 Trolley Industrial Drive Suite C, Taylor, MI 48180 US</h4>
+	</details>	
+</section>	
+</body>
+</br>
+<footer>
+    <img class="img11" src="Token/Untitled-12e-1.png">
+	<h4 class="text2">For Product Support, please contact the vendor HERE.</h4>
+	<h4 class="text2">Contact phone number: +1 643 399 4459</h4>
+	<h4 class="text2">Return Address: 19655 E 35th Drive. Suite 100 Aurora, CO 80011</h4>
+	<h4 class="text2">Charges will come from Digistore24
+    Unauthorized duplication or publication of any materials from this site is expressly prohibited.</h4>
+    <h4 class="text2">Copyright © 2023</h4>
+</footer>
+</html>
